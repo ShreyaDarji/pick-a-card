@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Entertainment Manager</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>🎬 Entertainment Manager</h2> 
+
+<div class="container">
+<div class="section" id="cartoons">
+<h3>Cartoons</h3>
+<ul id="cartoonList"></ul>
+<input type="text" id="cartoonInput" placeholder="Add cartoon">
+<button onclick="addItem('cartoon')">Add Cartoon</button>
+</div>
+
+<div class="section" id="serials">
+<h3>Serials</h3>
+<ul id="serialList"></ul>
+<input type="text" id="serialInput" placeholder="Add serial">
+<button onclick="addItem('serial')">Add Serial</button>
+</div>
+
+<div class="section" id="movies">
+<h3>Movies</h3>
+<ul id="movieList"></ul>
+<input type="text" id="movieInput" placeholder="Add movie">
+<button onclick="addItem('movie')">Add Movie</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

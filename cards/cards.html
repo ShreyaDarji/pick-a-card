@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <title>Pick a Card</title>
+  <link rel="stylesheet" href="style_card(user).css">
+</head>
+<body>
+
+  <h1>Pick a Card</h1>
+
+  <div class="input-section">
+    <input type="text" id="cardValue" placeholder="Enter card (A, 2-10, J, Q, K)" >
+    <select id="cardSuit">
+      <option value="♠">Spades (♠)</option>
+      <option value="♥">Hearts (♥)</option>
+      <option value="♦">Diamonds (♦)</option>
+      <option value="♣">Clubs (♣)</option>
+    </select>
+    <button onclick="displayCard()">Show Card</button>
+  </div>
+
+  <div class="card-display" id="cardOutput"></div>
+
+  <script src="script_card(user).js"></script>
+</body>
+</html>

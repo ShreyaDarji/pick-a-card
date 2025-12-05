@@ -1,0 +1,43 @@
+body {
+font-family: Arial, sans-serif; background: lightpink;
+padding: 20px;
+border: 2px solid black;
+}
+
+h2 {
+color: #333;
+}
+
+.container { display: flex; gap: 30px;
+}
+
+.section {
+border: 2px solid #ccc; border-radius: 12px; padding: 15px;
+width: 30%; background: #fff;
+box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+ul {
+list-style-type: none; padding: 0;
+}
+
+li {
+margin: 8px 0; padding: 6px 10px; background: #e0ffff;
+border-radius: 6px;
+display: flex;
+justify-content: space-between;
+}
+
+button {
+margin-top: 10px; padding: 6px 10px; border: none; border-radius: 6px;
+background-color: #4682b4; color: white;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #315f7f;
+}
+
+input { padding: 6px;
+border: 1px solid #aaa; border-radius: 6px; margin-top: 5px; width: 90%;
+}
